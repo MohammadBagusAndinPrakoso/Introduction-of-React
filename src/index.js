@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Students from './pages/Student';
+import Buku from './pages/Buku';
 import reportWebVitals from './reportWebVitals';
 
+// Load library bootstrap
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle"
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Buku />,
   document.getElementById('root')
 );
 
